@@ -9,7 +9,7 @@ Application requirements:
 
 
 Additional functions:
-    You can implement a counter that shows the number of open items in the list. Done
+    You can implement a counter that shows the number of open items in the list. not Done
     You may also use drop-down menus and check boxes  not done
     Try to come up with some meaningful way to hide and show elements in the app.  not done skip
     If you wish, you can also use the drag & drop functionality of HTML5 in the list not not done

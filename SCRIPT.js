@@ -123,7 +123,7 @@ function removeLocalTodos(todo) {
   // kysyy mistä aloitetaan poistaminen
   const todoIndex = todo.children[0].innerText;
 
-  // kysyy kuinka monta riviä poistaan
+  // kysyy kuinka monta riviä poistaa
   todos.splice(todos.indexOf(todoIndex), 1);
 
   // tallanetaa loppu tuloksen storageen
@@ -152,7 +152,7 @@ function getTodos() {
 
   // valmis nappi
   const completedButton = document.createElement("button");
-  completedButton.innerHTML = `<i class="fas fa-check"></i>`;
+  completedButton.innerHTML = `<i class="fas fa-check"></i>`; 
   completedButton.classList.add("valmis-btn");
   todoDiv.appendChild(completedButton);
 
