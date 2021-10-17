@@ -5,11 +5,13 @@
 }
 h1 {
   font-size: 50px;
-  color:rgb(47, 123, 209);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:rgb(255, 255, 255);
   margin: 5%;
+  text-shadow: #20324b;
 }
 body{
-  background-image: linear-gradient(120deg, #f6d365, #fda085);
+  background-image: linear-gradient(120deg, #20324b, #315481);
   color: black;
   font-family: "poppins", sans-serif;
   min-height: 100vh;
@@ -27,17 +29,17 @@ form input,
 form button{
 padding: 0.5rem;
 font-size: 2rem;
-border-color: linear-gradient(120deg, #f6d365, #fda085);
+border-color: linear-gradient(120deg, #20324b, #ff0000);
 background: white;
 }
 form button{
-  color:#d88771;
+  color:#20324b;
   background: white;
   cursor: pointer;
   transition: all 0.3 ease;
 }
 form button:hover{
-  background:#d88771;
+  background:#20324b;
   color: white;
 }
 .todo-container{
@@ -63,7 +65,7 @@ form button:hover{
   flex: 1;
 }
 .poista-btn, .valmis-btn{
-  background: #ff6f47;
+  background: #ff00009f;
   color: white;
   border: 1rem;
   padding: 1rem;
@@ -100,7 +102,7 @@ select {
   overflow: hidden;
 }
 select {
-  color: #ff6f47;
+  color: #315481;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 12rem;
@@ -112,7 +114,7 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #ff6f47;
+  background: #315481;
   cursor: pointer;
   pointer-events: none;
 }
