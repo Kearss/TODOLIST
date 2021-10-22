@@ -128,4 +128,5 @@ select {
 	height: 100px;
 	height: 3.8rem; 
 	line-height: 60px; 
+  pointer-events: none;
 }
